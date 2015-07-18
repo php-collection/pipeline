@@ -61,6 +61,31 @@
 * euals
 * clone
 
+Clojure collections:
+* count
+* conj (add)
+* seq (each)
+
+Scala collections (mutable, immutable, generic):
+(Immutable BitSets intersting)
+* +, ++, -, --, /: , :/ (Applies a binary operator to a start value and all elements of this traversable or iterator, going left to right or left.)
+* addString (Appends all bindings of this map to a string builder using start, end, and separator strings.)
+* aggregate (Aggregates the results of applying an operator to subsequent elements.)
+* andThen (Composes this partial function with a transformation function that gets applied to results of this partial function.)
+* apply (Retrieves the value which is associated with the given key.)
+* applyOrElse (Applies this partial function to the given argument when it is contained in the function domain.)
+* canEqual (Method called from equality methods, so that user-defined subclasses can refuse to be equal to other collections of the same kind.)
+* collect [use case] Builds a new collection by applying a partial function to all elements of this immutable hashmap on which the function is defined.
+* collectFirst (Finds the first element of the traversable or iterator for which the given partial function is defined, and applies the partial function to it.)
+* companion (The factory companion object that builds instances of class immutable.Iterable.)
+* compose (Composes two instances of Function1 in a new Function1, with this function applied last.)
+* contains (Tests whether this map contains a binding for a key.)
+* copyToArray ([use case] Copies elements of this immutable hash map to an array.) slice
+* copyToArray ([use case] Copies values of this immutable hash map to an array.)
+* copyToBuffer (Copies all elements of this traversable or iterator to a buffer.)
+* count (Counts the number of elements in the traversable or iterator which satisfy a predicate.)
+* default (Defines the default value computation for the map, returned when a key is not found The method implemented here throws an exception, but it might be overridden in subclasses.)
+
 Functions to implement:
 * add
 * each
