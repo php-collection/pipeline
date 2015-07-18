@@ -61,6 +61,7 @@
 * euals
 * clone
 
+Functions to implement:
 * add
 * each
 * map
