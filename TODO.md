@@ -68,6 +68,8 @@ Clojure collections:
 
 Scala collections (mutable, immutable, generic):
 (Immutable BitSets intersting)
+[http://www.scala-lang.org/api/2.10.3/index.html#scala.collection.immutable.List]
+
 * +, ++, -, --, /: , :/ (Applies a binary operator to a start value and all elements of this traversable or iterator, going left to right or left.)
 * addString (Appends all bindings of this map to a string builder using start, end, and separator strings.)
 * aggregate (Aggregates the results of applying an operator to subsequent elements.)
